@@ -1,0 +1,108 @@
+/* Стиль для тега body */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+/* Стиль для тега header */
+header {
+    background-color: #4CAF50;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+/* Стиль для тега nav */
+nav {
+    background-color: #333;
+    overflow: hidden;
+    display: inline-block; /* inline-block для nav */
+    width: 80%; /* Ширина nav 80% */
+}
+
+/* Стили для изображения внутри nav */
+nav img {
+    width: 10%; /* Ширина изображения внутри nav 10% */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+/* Стили для ul и li */
+nav ul li {
+    display: inline-block;
+    width: auto;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Стиль для тега main */
+main {
+    background-color: #f4f4f4;
+    font-size: 18px;
+    padding: 20px;
+}
+
+/* Стиль для тега footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Закомментированный стиль для тега li */
+/* li {
+    display: inline-block;
+    width: auto;
+} */
+
+/* Стиль для тега h1 */
+h1 {
+    text-align: center;
+    font-family: 'Georgia', serif;
+    color: #333;
+}
+
+/* Стиль для тега p */
+p {
+    line-height: 1.6;
+}
+
+/* Стили для двухколоночной сетки */
+.grid {
+    display: grid;
+    grid-template-columns: 40% 40%; /* Две колонки по 40% */
+    justify-content: space-between;
+    align-items: center;
+    row-gap: 20px; /* Промежутки между строками */
+}
+
+/* Стили для изображений внутри grid */
+.grid img {
+    width: 100%; /* Изображения внутри grid с шириной 100% */
+}
+
+/* Стили для flex-контейнера */
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
